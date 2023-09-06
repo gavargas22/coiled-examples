@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "coiled"
+version = "0.1.0"
+description = ""
+authors = ["Guillermo Vargas <gavargas22@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+s3fs = "^2023.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
